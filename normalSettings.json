@@ -1,0 +1,12 @@
+{
+ "beatsPerBar": 4,
+ "valueOfBeat": 0.25,
+ "beatLevels": [
+  "a",
+  "n",
+  "s",
+  "n"
+ ],
+ "subdivision": 1,
+ "beatsPerMinute": 60
+}
