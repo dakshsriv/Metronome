@@ -167,7 +167,7 @@ def MetronomeGUI():
                         playSubaccent()
                     elif i == "n":
                         playNormal()
-                    if event == "Stop Metronome":
+                    if event == "Stop Metronome" or event == None:
                         break
                     time.sleep(60 / int(playspeed))
         if event == "Play Multirhythm":
