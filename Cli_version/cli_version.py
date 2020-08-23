@@ -43,7 +43,7 @@ def play_music():
     print("Playing settings")
     pprint(data)
     print()
-    for i in range(0, 4):
+    for i in range(0, beats):
         playspeed = bpm * subdivision * int(value / 4)
         playspeed = 100
         for i in level:
@@ -94,8 +94,6 @@ def multi_play():
     print(items)
     ratio1 = int(items[0])
     ratio2 = int(items[1])
-    bpm = int(items[1])
-    s = 60 / bpm
     frequency1 = 1 / ratio1
     frequency2 = 1 / ratio2
     l = list()

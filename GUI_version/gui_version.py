@@ -173,7 +173,7 @@ def MetronomeGUI():
         if event == "Play Multirhythm":
             pygame.mixer.init()
             data = dict()
-            with open("multiSettings.json", "r") as f:
+            with open("normalSettings.json", "r") as f:
                 data = json.load(f)
                 f.close()
             l = data["Times"]
